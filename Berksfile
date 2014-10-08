@@ -1,3 +1,10 @@
 source 'https://supermarket.getchef.com'
 
 cookbook 'openssl', '~> 2.0.0'
+cookbook 'apache2', '~> 2.0.0'
+cookbook 'database', '~> 2.3.0'
+cookbook 'mysql', '~> 5.5.4'
+cookbook 'mysql-chef_gem', '~> 0.0.5'
+cookbook 'build-essential', '~> 2.0.6'
+cookbook 'tar', '~> 0.5.0'
+cookbook 'php-fpm', '~> 0.6.10'
