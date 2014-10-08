@@ -17,9 +17,9 @@ depends "apache2", ">= 2.0.0"
 depends "database", ">= 1.6.0"
 depends "mysql", ">= 5.0.0"
 depends "mysql-chef_gem", ">= 0.0.2"
+depends "build-essential"
 depends "iis", ">= 1.6.2"
 depends "tar", ">= 0.3.1"
-depends "nginx", "~> 2.7.4"
 depends "php-fpm", "~> 0.6.10"
 
 %w{ debian ubuntu windows centos redhat scientific oracle }.each do |os|
